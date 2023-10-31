@@ -13,11 +13,12 @@ class BaseModel:
 
     id = str(uuid.uuid4())
     created_at = datetime.now()
+    update_at = str(uuid.uuid4())
 
-    def __init__(self, updated_at):
+    def __init__(self):
         """Updating datetile"""
         self.updated_at = datetime.now()
-        BaseModel.id = str(uuid.uuid4())
+        self.id = str(uuid.uuid4())
 
     def __str__(self):
         """ print a specifique format of informations nexpected"""
@@ -30,8 +31,12 @@ class BaseModel:
 
     def to_dict(self):
         """returns a dictionary containing all keyand value"""
-        my_dic = self.__dict__
+        my_dic = self.__dict__.copy()
         my_dic['__class__'] = self.__class__.__name__
+
         self.created_at = self.created_at.isoformat()
         self.updated_at = self.updated_at.isoformat()
+        self.created_at = self.created_at.isoformat(self.created_at)
+        self.updated_at = self.updated_at.isoformat(self.updated_at)
+
         return my_dic
