@@ -1,1 +1,1 @@
-# holbertonschool-AirBnB_clone
+README - AirBnB clone - The console
