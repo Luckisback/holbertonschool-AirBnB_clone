@@ -32,6 +32,6 @@ class BaseModel:
         """returns a dictionary containing all keyand value"""
         my_dic = self.__dict__
         my_dic['__class__'] = self.__class__.__name__
-        self.created_at = self.created_at.strtime('%Y-%m-%dT%H:%M:%S.%f')
-        self.updated_at = self.updated_at.strtime('%Y-%m-%dT%H:%M:%S.%f')
+        self.created_at = self.created_at.isoformat()
+        self.updated_at = self.updated_at.isoformat()
         return my_dic
