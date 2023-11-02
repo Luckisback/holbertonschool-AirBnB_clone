@@ -1,9 +1,14 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 """import for class FileStorage"""
 import json
 import os
 from datetime import datetime
 from models.base_model import BaseModel
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
 
 
 classes = {"BaseModel": BaseModel}
