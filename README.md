@@ -2,7 +2,7 @@
 
 <h1 align="center">
     <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Airbnb_icon-icons.com_66791.png" height="30" alt="AirBnB logo"> AirBnB clone
-</h1>
+</h1> 
 
 <p align="center">
     <img src="img/hbnb.png" alt="holberton logo">
@@ -132,32 +132,7 @@ $
 
 ## Examples
 
-Executing help command.
 
-![Help](https://github.com/CllaudiaB/holbertonschool-AirBnB_clone/blob/master/images/help.gif)
-
-Getting help for a command
-
-![Help update](https://github.com/CllaudiaB/holbertonschool-AirBnB_clone/blob/master/images/help%20update.gif)
-
-Creating a new user, showing the ID and updating the fields
-
-![Create & Update](https://github.com/CllaudiaB/holbertonschool-AirBnB_clone/blob/master/images/create%20user%20and%20update.gif)
-
-Creating a new basemodel, counting basemodel, delete and count again
-
-![Destroy](https://github.com/CllaudiaB/holbertonschool-AirBnB_clone/blob/master/images/destroy.gif)
-
-
-### Console Commands
-
-The HolbertonBnB console supports the following commands:
-
-* **create**
-  * Usage: `create <class>`
-
-Creates a new instance of a given class. The class' ID is printed and 
-the instance is saved to the file `file.json`.
 
 ```
 $ ./console.py
