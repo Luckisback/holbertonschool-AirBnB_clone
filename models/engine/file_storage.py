@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+"""import for class FileStorage"""
 import json
 import os
 from datetime import datetime
 from models.base_model import BaseModel
+
+
+classes = {"BaseModel": BaseModel}
 
 class FileStorage:
     __file_path = "file.json"
