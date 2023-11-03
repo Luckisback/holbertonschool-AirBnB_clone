@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""test for State class"""
+"""Test for State class"""
 
 import unittest
 from models.state import State
