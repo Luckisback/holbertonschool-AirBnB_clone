@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""test for User class"""
-
+"""Test for User"""
 import unittest
 from models.user import User
 
@@ -22,4 +21,4 @@ class TestUser(unittest.TestCase):
         self.assertIsInstance(user.last_name, str)
 
 if __name__ == "__main__":
-    unittest.main()  
+    unittest.main()
