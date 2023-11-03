@@ -1,4 +1,4 @@
-# AirBnB Clone Project - The Console
+# The Console
 
 <h1 align="center">
     <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Airbnb_icon-icons.com_66791.png" height="30" alt="AirBnB logo"> AirBnB clone
@@ -12,32 +12,28 @@
 
 
 <p>
-    in this project a console of the Airbnb web application is recreated, the tools used for the completion of the project were: <br>
+    In this project a console of the Airbnb web application is recreated, the tools used for the completion of the project are : <br>
     <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Airbnb_icon-icons.com_66791.png" height="15" alt="AirBnB logo"> python3 <br>
     <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Airbnb_icon-icons.com_66791.png" height="15" alt="AirBnB logo"> json files where a database is  simulated and also serves to translate  data between languages <br>
     <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Airbnb_icon-icons.com_66791.png" height="15" alt="AirBnB logo"> PyCodeStyle
 
 
-# Description of the project
-
 This marks the initial phase of the project, emulating an Airbnb-style application. We're establishing a mechanism to manage the components our web page will utilize by interacting with a JSON-formatted database. In this context, we implement object-oriented programming, Python data translation, and command interpretation logic to provide a locally modifiable database through commands.
 
-# Prerequisites 
+# Installation
+
+![hbnb](https://www.gifsanimados.org/data/media/56/computadora-y-ordenador-imagen-animada-0085.gif) 
 
 Python3.4+ has to be installed if you desire to use the console:
 ```
 sudo apt-get install python3
 ```
-
-# Installation
-
 To have access to the console use the following command:
-
 ```
 git clone https://github.com/Holbiwan/holbertonschool-AirBnB_clone
 ```
 
-## Classes :cl:
+## Classes 
 
 <h3>Class Info:</h3>
 <p>
