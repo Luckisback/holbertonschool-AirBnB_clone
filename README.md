@@ -4,9 +4,7 @@
     <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Airbnb_icon-icons.com_66791.png" height="30" alt="AirBnB logo"> AirBnB clone
 </h1> 
 
-<p align="center">
-    <img src="img/hbnb.png" alt="holberton logo">
-</p>
+![hbnb](https://zupimages.net/up/23/44/hwzw.png)
 
 <h2>
      Description :speech_balloon:
