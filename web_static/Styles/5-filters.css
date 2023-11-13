@@ -4,10 +4,9 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    margin-left: 220px;
-    position: relative;
-    align-items: center;
     display: flex;
+    position: relative;
+    align-items:center;
 }
 
 .filters button {
@@ -32,19 +31,29 @@
 }
 
 .locations {
-    border-right: 1px #DDDDDD;
+    border-right:1px solid #DDDDDD;
+    height: 70px;
+    
 }
-
 .locations h3 {
     font-weight: 600;
+    padding-left: 25%;
+    margin-top: 16px;
+    margin-bottom: 5px;
 }
 .amenities h3 {
     font-weight: 600;
-    
+    padding-left: 25%;
+    margin-top: 16px;
+    margin-bottom: 5px;
 }
 .locations h4 {
-    font-style: 400px;
+    font-weight: 400;
+    padding-left: 22%;
+    margin-top: 0px;
 }
 .amenities h4 {
-    font-style: 400px;
+    font-weight: 400;
+    padding-left: 25%;
+    margin-top: 0px;
 }
