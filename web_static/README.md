@@ -33,8 +33,6 @@ During this project, you will learn how to manipulate HTML and CSS languages. HT
 
 Before starting, please fork or clone the repository AirBnB_clone from your partner if you were not the owner of the previous project.
 
-## ` Python Unit Tests `
-
 ##Tasks
 0. Inline styling 
 1. Head styling 
