@@ -91,3 +91,6 @@ ul {
 .amenities:hover .popover {
     display: block;
 }
+h2 {
+    font-size: 16px;
+}
